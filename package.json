@@ -4,6 +4,7 @@
   "description": "Tourism and travel",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js"
   },
   "author": "Kristen Harrison",
   "dependencies": {
