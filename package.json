@@ -12,5 +12,8 @@
     "express-handlebars": "latest",
     "request":  "latest", 
     "body-parser": "latest"
+  }, 
+  "engines": {
+    "node": "4.2.6"
   }
 }
