@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Visit Prussia</title>
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+
+<body>
+	<div id="slides" class="slides">
+		<!-- Photo carousel at top of all pages -->
+		<div id="pCarousel" class="carousel" data-interval="8000" data-ride="carousel">
+	  
+	  <!-- Indicators: click to move to another item-->
+		  <ol class="carousel-indicators">
+		    <li data-target="#pCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#pCarousel" data-slide-to="1"></li>
+		    <li data-target="#pCarousel" data-slide-to="2"></li>
+		    <li data-target="#pCarousel" data-slide-to="3"></li>
+		    <li data-target="#pCarousel" data-slide-to="4"></li>
+		    <li data-target="#pCarousel" data-slide-to="5"></li>
+		    <li data-target="#pCarousel" data-slide-to="6"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item pCarouselItem active">
+		      <img src="images/poznan.jpeg" alt="poznan">
+		    </div>
+
+		    <div class="item pCarouselItem">
+		     <img src="images/wroclaw1.jpg" alt="wroclaw1">
+		    </div>
+
+		    <div class="item pCarouselItem">
+		      <img src="images/berlin.png" alt="berlin">
+		    </div>
+
+		    <div class="item pCarouselItem">
+		      <img src="images/gdansk.jpg" alt="gdansk">
+		    </div>
+
+		    <div class="item pCarouselItem">
+		      <img src="images/wroclaw2.jpg" alt="wroclaw2">
+		    </div>
+
+		    <div class="item pCarouselItem">
+		      <img src="images/gdansk2.jpg" alt="gdansk2">
+		    </div>
+
+	  		<div class="item pCarouselItem">
+		      <img src="images/stargard.jpg" alt="stargard">
+		    </div>
+		    <!-- Photos were sourced from google and I will not be publishing them -->
+	  	</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="350">
+	  <div class="container-fluid">
+	    <ul class="nav navbar-nav navbar-center">
+	      <li><a href="/">Home</a></li>
+	      <li><a href="/sightseeing">Sightseeing</a></li>
+	      <li><a href="/history">History</a></li>
+	      <li><a href="/weather">Weather</a></li>
+	    </ul>
+	  </div>
+	</nav> 
+
+	{{{body}}}
+
+</body>
+</html>

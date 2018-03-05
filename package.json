@@ -1,0 +1,15 @@
+{
+  "name": "290_Final",
+  "version": "1.0.0",
+  "description": "Tourism and travel",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "Kristen Harrison",
+  "dependencies": {
+    "express": "^4.13.2",
+    "express-handlebars": "latest",
+    "request":  "latest", 
+    "body-parser": "latest"
+  }
+}

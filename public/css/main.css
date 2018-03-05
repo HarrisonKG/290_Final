@@ -1,0 +1,99 @@
+
+body {
+	line-height: 150%;
+} 
+
+
+h1 {
+	margin: 0px;
+	padding: 100px 0px 50px 0px;
+	text-align: center;
+}
+
+
+/* carousel elements */
+.slides {
+	background-color: black;
+	height: 350px;
+}
+
+.carousel-inner img {
+ 	margin: auto;
+}
+
+.pCarouselItem img {
+	width: auto;
+ 	/*height: 300px; */
+	max-height: 350px;
+}
+
+
+/* navbar elements */
+.affix {
+	/* nav sticks to top when scrolling down */
+	top: 0;
+	width: 100%;
+}
+
+.navbar {
+	/* no gap between navbar and background image */
+	margin-bottom: 0px !important;
+	/* keep thumbnails from overlapping navbar */
+	z-index: 999;
+}
+
+/* center the links in the nav bar */
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+/* main page rows */
+.mainRow {
+	padding: 80px 70px 50px 100px;
+}
+
+
+/* history page elements */
+.panel {
+	margin: 80px;
+}
+
+#notables {
+	height: 450px;
+	overflow: auto;
+}
+
+.profile {
+	float:left;
+	margin: 0px 15px 15px 15px;
+}
+
+
+/* sightseeing page */
+.sightRow {
+	margin: 100px 0px 50px 50px;
+	padding: 10px;
+}
+
+.sightThumbnail {
+	float:left;
+	margin: 20px 35px 0px 0px;
+}
+
+.sightBlurb {
+	margin: 30px 120px 0px 0px;
+}
+
+
+/* weather page backdrop */
+#cloudsLayer {
+	background-image:url("../images/sky.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+
+
+
